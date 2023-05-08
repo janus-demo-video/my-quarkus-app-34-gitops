@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app-34
+  namespace: my-quarkus-app-34-dev
+  cluster: .apps.cluster-jxdfz.jxdfz.sandbox837.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-demo-video/my-quarkus-app-34
+  org: janus-demo-video
+  name: my-quarkus-app-34
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app-34
+  tag: latest
